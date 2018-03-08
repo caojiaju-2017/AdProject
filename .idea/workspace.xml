@@ -10,23 +10,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WeiShop$test.coverage" NAME="test Coverage Results" MODIFIED="1520155658950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdSystem$manage.coverage" NAME="manage Coverage Results" MODIFIED="1520340080330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WeiShop$test.coverage" NAME="test Coverage Results" MODIFIED="1520155658950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WeiShop$download.coverage" NAME="download Coverage Results" MODIFIED="1519390711685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExmapleApi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/templates/Example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/static/Example.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdSystem/static/Public/public.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <marker date="1520516482384" expanded="true" signature="530:545" ph="..." />
+                <marker date="1520516482384" expanded="true" signature="642:657" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,18 +124,9 @@
       <replace>AdSystem.</replace>
     </replaceStrings>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HsEdu/templates/home/usercenter/suggest.html" />
-        <option value="$PROJECT_DIR$/HsEdu/templates/home/usercenter/cooperation.html" />
-        <option value="$PROJECT_DIR$/HsEdu/templates/three/test.html" />
-        <option value="$PROJECT_DIR$/HsEdu/Api/ThreeApi/Api.py" />
-        <option value="$PROJECT_DIR$/download.py" />
-        <option value="$PROJECT_DIR$/HsEdu/templates/game/game_setting.html" />
         <option value="$PROJECT_DIR$/HsEdu/templates/game/game_result.html" />
         <option value="$PROJECT_DIR$/HsEdu/templates/game/game_map.html" />
         <option value="$PROJECT_DIR$/HsEdu/templates/game/game_error_book.html" />
@@ -124,9 +169,15 @@
         <option value="$PROJECT_DIR$/HsShareData.py" />
         <option value="$PROJECT_DIR$/AdSystemServer/wsgi.py" />
         <option value="$PROJECT_DIR$/AdSystemServer/settings.py" />
-        <option value="$PROJECT_DIR$/include.py" />
         <option value="$PROJECT_DIR$/AdSystemServer/urls.py" />
         <option value="$PROJECT_DIR$/help.txt" />
+        <option value="$PROJECT_DIR$/include.py" />
+        <option value="$PROJECT_DIR$/HsPlatform/DataBase/DbHelper.py" />
+        <option value="$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py" />
+        <option value="$PROJECT_DIR$/AdSystem/templates/Example.html" />
+        <option value="$PROJECT_DIR$/AdSystem/templates/index.html" />
+        <option value="$PROJECT_DIR$/AdSystem/static/Example.js" />
+        <option value="$PROJECT_DIR$/AdSystem/static/Public/public.js" />
       </list>
     </option>
   </component>
@@ -137,10 +188,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="925" />
-    <option name="height" value="965" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -163,8 +213,43 @@
         <subPane>
           <expand>
             <path>
-              <item name="AdProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="HsPlatform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="HsPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="DataBase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,19 +265,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AdSystem\AdSystem\templates" />
-      <recent name="D:\WeiShop\WeiShop\HsEdu\Api\Custom" />
-      <recent name="D:\WeiShop\WeiShop\HsEdu\static\everydate" />
-      <recent name="D:\WeiShop\WeiShop\HsEdu\static\Images" />
-      <recent name="D:\WeiShop\WeiShop\HsEdu\static\everydate\20180303" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AdSystem\AdSystem\static\ThreeParty" />
       <recent name="E:\GitWorkSpace\NewEducation\WeiShop\HsEdu\templates\three" />
       <recent name="E:\GitWorkSpace\NewEducation\WeiShop\HsEdu\static\threePart" />
       <recent name="$PROJECT_DIR$/HsEdu/static/js" />
       <recent name="$PROJECT_DIR$/HsEdu/static/css" />
-      <recent name="$PROJECT_DIR$/HsEdu/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AdSystem\AdSystem\static\ThreeParty" />
+      <recent name="D:\AdSystem\AdSystem\static\Boost" />
+      <recent name="D:\AdSystem\AdSystem\static\Public" />
+      <recent name="D:\AdSystem\AdSystem\templates" />
+      <recent name="D:\WeiShop\WeiShop\HsEdu\Api\Custom" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -533,19 +618,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6236786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3305174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2851109" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2851109" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -614,17 +697,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HsEdu/static/js/home/home.js" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/templates/home/res/res_detail.html.back" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/static/js/wxpay.js" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/static/js/game_wxpay.js" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/templates/game/game_wxpaying.html" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/static/js/game/game.js" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/static/js/public/beep.js" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/static/js/game/gamming.js" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/Api/BaseEmail.py" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/Api/Game/GameApi.py" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/apps.py" />
     <entry file="file://$PROJECT_DIR$/HsEdu/admin.py" />
     <entry file="file://$PROJECT_DIR$/HsEduServer/settings.py" />
     <entry file="file://$PROJECT_DIR$/HsEdu/Api/WebCenterApi.py" />
@@ -675,6 +747,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-551">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#602#641#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +786,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="0">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#22#31#0" expanded="false" />
@@ -727,18 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdSystem/templates/Channel/__init__.py" />
     <entry file="file://$PROJECT_DIR$/AdSystemServer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="380">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#692#724#0" expanded="false" />
@@ -751,6 +818,110 @@
         <state relative-caret-position="38">
           <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="e#47#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HsPlatform/DataBase/DbHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/Public/md5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/ThreeParty/Boost/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/ThreeParty/Boost/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/templates/Example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/ThreeParty/Three/extra/vr/WebVR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/ThreeParty/Report/morris.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1519995485459" expanded="true" signature="28599:28606" ph="..." />
+            <marker date="1519995485459" expanded="true" signature="55221:55228" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/Example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/Public/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1520516482384" expanded="true" signature="530:545" ph="..." />
+            <marker date="1520516482384" expanded="true" signature="642:657" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
