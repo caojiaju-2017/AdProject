@@ -54,7 +54,47 @@ from AdSystem.Api.BaseEmail import *
 
 logger = logging.getLogger('django')
 
+
+# 写日志
 def HsWriteLog(message):
     return
     global logger
     logger.error(message)
+
+# 获取post参数
+def getPostData(request):
+    postDataList = {}
+    if request.method == 'POST':
+        for key in request.POST:
+            try:
+                postDataList[key] = request.POST.getlist(key)[0]
+            except:
+                pass
+
+    import json
+    if not postDataList or len(postDataList) == 0:
+        try:
+            bodyTxt = request.body
+            postDataList = json.loads(bodyTxt)
+        except Exception,ex:
+            pass
+
+    return  postDataList
+
+
+# 事务提交变更
+def commitCustomDataByTranslate(objHandles):
+    with transaction.atomic():
+        for oneObject in objHandles:
+            if not oneObject.dbHandle:
+                continue
+
+            try:
+                if oneObject.operatorType == 0:
+                    oneObject.dbHandle.save()
+                elif oneObject.operatorType == 1:
+                    oneObject.dbHandle.delete()
+            except Exception,ex:
+                return  False
+
+    return True
