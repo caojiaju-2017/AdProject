@@ -22,7 +22,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
+from AdSystem.Api.VipCustom.VipCustomApi import *
+
 urlpatterns = [
     # API接口
     url(r'^admin/', admin.site.urls),
+    url(r'^$',VipCustomApi.openVipHome),
+    url(r'^api/ctm/$',VipCustomApi.CommandDispatch),
 ] + static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)

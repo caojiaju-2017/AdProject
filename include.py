@@ -50,7 +50,7 @@ from django.db.models import Q
 from AdSystem.models import *
 import xml.etree.ElementTree as ET
 
-from AdSystem.Api.BaseEmail import *
+# from AdSystem.Api.BaseEmail import *
 
 logger = logging.getLogger('django')
 

@@ -22,51 +22,78 @@
       <file leaf-file-name="ExmapleApi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdSystem/templates/Example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdSystem/static/Example.js">
+      <file leaf-file-name="VipHome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdSystem/templates/VipHome.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AdSystem/static/Public/public.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding>
-                <marker date="1520516482384" expanded="true" signature="530:545" ph="..." />
-                <marker date="1520516482384" expanded="true" signature="642:657" ph="..." />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdSystem/templates/index.html">
+      <file leaf-file-name="viphome.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/static/VipHome/viphome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="190">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystemServer/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#692#724#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VipCustomApi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/Api/VipCustom/VipCustomApi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="include.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#47#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PublicService.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdSystem/Api/PublicService.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,8 +105,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -127,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HsEdu/templates/game/game_result.html" />
-        <option value="$PROJECT_DIR$/HsEdu/templates/game/game_map.html" />
-        <option value="$PROJECT_DIR$/HsEdu/templates/game/game_error_book.html" />
-        <option value="$PROJECT_DIR$/HsEdu/templates/game/game_wxpaying.html" />
         <option value="$PROJECT_DIR$/HsEdu/templates/game/game_view_word.html" />
         <option value="$PROJECT_DIR$/HsEdu/static/js/game/game_map.js" />
         <option value="$PROJECT_DIR$/HsEdu/static/js/game/game_error_book.js" />
@@ -169,15 +192,19 @@
         <option value="$PROJECT_DIR$/HsShareData.py" />
         <option value="$PROJECT_DIR$/AdSystemServer/wsgi.py" />
         <option value="$PROJECT_DIR$/AdSystemServer/settings.py" />
-        <option value="$PROJECT_DIR$/AdSystemServer/urls.py" />
-        <option value="$PROJECT_DIR$/help.txt" />
-        <option value="$PROJECT_DIR$/include.py" />
         <option value="$PROJECT_DIR$/HsPlatform/DataBase/DbHelper.py" />
         <option value="$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py" />
-        <option value="$PROJECT_DIR$/AdSystem/templates/Example.html" />
         <option value="$PROJECT_DIR$/AdSystem/templates/index.html" />
-        <option value="$PROJECT_DIR$/AdSystem/static/Example.js" />
         <option value="$PROJECT_DIR$/AdSystem/static/Public/public.js" />
+        <option value="$PROJECT_DIR$/AdSystem/Api/VipCustom/VipCustom.py" />
+        <option value="$PROJECT_DIR$/include.py" />
+        <option value="$PROJECT_DIR$/AdSystem/static/Example.js" />
+        <option value="$PROJECT_DIR$/AdSystem/templates/Example.html" />
+        <option value="$PROJECT_DIR$/AdSystem/Api/VipCustom/VipCustomApi.py" />
+        <option value="$PROJECT_DIR$/AdSystemServer/urls.py" />
+        <option value="$PROJECT_DIR$/help.txt" />
+        <option value="$PROJECT_DIR$/AdSystem/static/VipHome/viphome.js" />
+        <option value="$PROJECT_DIR$/AdSystem/templates/VipHome.html" />
       </list>
     </option>
   </component>
@@ -188,7 +215,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="246" />
+    <option name="y" value="182" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -207,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +246,12 @@
               <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
               <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -238,46 +270,67 @@
               <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
               <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreeParty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreeParty" type="462c0819:PsiDirectoryNode" />
+              <item name="Boost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreeParty" type="462c0819:PsiDirectoryNode" />
+              <item name="LayUi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="VipHome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="HsPlatform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="HsPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="DataBase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/WeiShop" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AdSystem\AdSystem\static\VipHome" />
+      <recent name="D:\AdSystem\AdSystem\Api" />
+      <recent name="D:\AdSystem\AdSystem" />
+      <recent name="D:\AdSystem\AdSystem\static\ThreeParty" />
+      <recent name="D:\AdSystem\AdSystem\static\Boost" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AdSystem\AdSystem\static\ThreeParty" />
       <recent name="E:\GitWorkSpace\NewEducation\WeiShop\HsEdu\templates\three" />
       <recent name="E:\GitWorkSpace\NewEducation\WeiShop\HsEdu\static\threePart" />
       <recent name="$PROJECT_DIR$/HsEdu/static/js" />
       <recent name="$PROJECT_DIR$/HsEdu/static/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AdSystem\AdSystem\static\ThreeParty" />
-      <recent name="D:\AdSystem\AdSystem\static\Boost" />
-      <recent name="D:\AdSystem\AdSystem\static\Public" />
-      <recent name="D:\AdSystem\AdSystem\templates" />
-      <recent name="D:\WeiShop\WeiShop\HsEdu\Api\Custom" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -669,14 +722,9 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AdSystemServer/urls.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/manage.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="77" />
+          <url>file://$PROJECT_DIR$/AdSystem/Api/VipCustom/VipCustomApi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -686,7 +734,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="80" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
@@ -697,11 +745,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HsEdu/admin.py" />
-    <entry file="file://$PROJECT_DIR$/HsEduServer/settings.py" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/Api/WebCenterApi.py" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/templates/three.html" />
-    <entry file="file://$PROJECT_DIR$/HsEdu/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/HsEdu/static/css/home.css" />
     <entry file="file://$PROJECT_DIR$/HsEdu/static/Images/background.png" />
     <entry file="file://$PROJECT_DIR$/HsEdu/static/css/game/game.css" />
@@ -780,17 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2527">
           <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,47 +835,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdSystem/templates/Channel/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/AdSystemServer/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#692#724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-          <folding>
-            <element signature="e#47#61#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HsPlatform/DataBase/DbHelper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,19 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdSystem/templates/Example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdSystem/static/ThreeParty/Three/extra/vr/WebVR.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,28 +882,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/Public/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding>
-            <marker date="1519995485459" expanded="true" signature="28599:28606" ph="..." />
-            <marker date="1519995485459" expanded="true" signature="55221:55228" ph="..." />
+            <marker date="1520516482384" expanded="true" signature="530:545" ph="..." />
+            <marker date="1520516482384" expanded="true" signature="642:657" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/Api/PublicService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/Api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdSystem/static/Example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdSystem/static/Public/public.js">
+    <entry file="file://$PROJECT_DIR$/AdSystem/templates/Example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/Api/ExmapleApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystemServer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1520516482384" expanded="true" signature="530:545" ph="..." />
-            <marker date="1520516482384" expanded="true" signature="642:657" ph="..." />
+            <element signature="e#692#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/Api/VipCustom/VipCustomApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/static/VipHome/viphome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdSystem/templates/VipHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

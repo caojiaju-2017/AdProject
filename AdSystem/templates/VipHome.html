@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vip管理</title>
+
+    <meta name="viewport" content="user-scalable=no">
+
+    <script src="/static/Public/jquery.js"></script>
+    <script src="/static/ThreeParty/Boost/bootstrap.js"></script>
+    <script src="/static/Public/cookie.js"></script>
+    <script src="/static/ThreeParty/LayUi/layui.js"></script>
+    <script src="/static/VipHome/viphome.js"></script>
+
+    <link rel="stylesheet" href="/static/ThreeParty/Boost/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/ThreeParty/LayUi/css/layui.css" media="all">
+</head>
+<body>
+
+{# title#}
+<div style="width: 80%;height: 80px;background: #1E9FFF;margin-left: 10%">
+    <div><img src="/static/VipHome/by_logo.jpg" style="height: 80px;float: left"> </div>
+    <div style="line-height: 80px;color: whitesmoke;font-size: 26px;float: left;margin-left: 30px">精准营销演示后台</div>
+    <div><img src="/static/VipHome/exit.png" style="height: 40px;width:50px;float: right;margin-top: 20px;margin-right: 30px" onclick="$.exitSystem()"> </div>
+</div>
+<div style="background: #f0f0f0;height: 300px;width: 80%;margin-left: 10%" id="vip_div">
+<table id="demo" lay-filter="test" style=""></table>
+</div>
+
+<script>
+layui.use('table', function(){
+  var table = layui.table;
+
+  //第一个实例
+  table.render({
+    elem: '#demo'
+    ,height: 800
+    ,url: '/api/ctm/?Command=List_VipDatas' //数据接口
+    ,page: true //开启分页
+    ,cols: [[ //表头
+      {field: 'id', title: 'ID', width:80, sort: true, fixed: 'left'}
+      ,{field: 'username', title: '用户名', width:180}
+      ,{field: 'sex', title: '性别', width:100, sort: true}
+      ,{field: 'city', title: '城市', width:100}
+      ,{field: 'experience', title: '积分', width: 100, sort: true}
+      ,{field: 'classify', title: '职业', width: 180}
+      ,{field: 'wealth', title: '财富', width: 195, sort: true}
+    ]]
+  });
+
+});
+</script>
+</body>
+</html>
