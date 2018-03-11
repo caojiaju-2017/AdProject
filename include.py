@@ -26,6 +26,7 @@ import requests
 from django.template import Template, Context
 from HsPlatform.Sms.HsSmsHelp import *
 from HsPlatform.Sms.MobileRecord import *
+from AdSystemServer.settings import *
 
 # DJANGO 引用
 from django.shortcuts import render,render_to_response

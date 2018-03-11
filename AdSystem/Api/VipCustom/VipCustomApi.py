@@ -11,11 +11,48 @@ class VipCustomApi(object):
 
         if command == "List_VipDatas".upper():
             return VipCustomApi.listVipDatas(req)
+        elif command == "Add_Vip".upper():
+            return VipCustomApi.addVipData(req)
+        elif command == "Modi_Vip".upper():
+            return VipCustomApi.modiVipData(req)
+        elif command == "Dele_Vip".upper():
+            return VipCustomApi.deleteVipData(req)
+        elif command == "Get_VipInfo".upper():
+            return  VipCustomApi.GetVipInfo(req)
 
     @staticmethod
     def openVipHome(request):
         dict = {}
         return render(request, 'VipHome.html', dict)
+
+    @staticmethod
+    def openVipDetail(request):
+        dict = {}
+        return render(request, 'VipChange.html', dict)
+
+    @staticmethod
+    @csrf_exempt
+    def uploadFile(request):
+        try:
+            code = request.GET.get('code')
+        except Exception, e:
+            loginResut = json.dumps({"ErrorInfo": "参数错误", "ErrorId": 2999, "Result": {}})
+            return HttpResponse(loginResut)
+
+        myFile = request.FILES.get("file", None)  # 获取上传的文件，如果没有文件，则默认为None
+        if not myFile:
+            return HttpResponse("no files for upload!")
+
+        destination = os.path.join(STATIC_ROOT, "VipHome")
+        destination = os.path.join(destination, "Images")
+        destination = destination.encode('utf-8')
+        destination = open(os.path.join(destination, code + ".png"), 'wb+')  # 打开特定的文件进行二进制的写操作
+        for chunk in myFile.chunks():  # 分块写入文件
+            destination.write(chunk)
+        destination.close()
+
+        return HttpResponse(myFile.name)
+        pass
 
     @staticmethod
     def getLastNotify(request):
@@ -59,21 +96,28 @@ class VipCustomApi(object):
         dict = {}
         dict["code"] = 0
         dict["msg"] = "success"
-        dict["count"] = 20
+
 
         dataList = []
-
-        for index in range(20):
+        vips = ByVipTable.objects.all()
+        for oneVip in vips:
             oneData= {}
-            oneData["id"] = 100 + index
-            oneData["username"] = "ccc"
-            oneData['sex'] = "男"
-            oneData['city'] = '成都'
-            oneData['experience'] = 1009
-            oneData['classify'] = "医生"
-            oneData['wealth'] = 290020
-            dataList.append(oneData)
+            oneData["id"] = oneVip.id
+            oneData["code"] = oneVip.code
+            oneData["username"] = oneVip.name
+            oneData['sex'] = oneVip.sex
+            oneData['city'] = oneVip.city
+            oneData['experience'] = oneVip.score
+            oneData['classify'] = oneVip.classify
+            oneData['wealth'] = oneVip.wealth
 
+            if oneVip.notify == 1:
+                oneData['notify'] = "是"
+            else:
+                oneData['notify'] = "否"
+
+            dataList.append(oneData)
+        dict["count"] = len(vips)
         dict["data"] = dataList
 
         lResut = json.dumps(dict)
@@ -81,7 +125,52 @@ class VipCustomApi(object):
 
     @staticmethod
     def addVipData(request):
-        pass
+        postDataList = {}
+        postDataList = getPostData(request)
+
+        newVip = True
+        code = None
+        try:
+            code = postDataList['code']
+        except:
+            pass
+
+        try:
+            title = postDataList['title']
+            city = postDataList['city']
+            score = postDataList['score']
+            profession = postDataList['profession']
+            deposity = postDataList['deposity']
+            postmsgflag = postDataList['postmsgflag']
+            sex = postDataList['sex']
+        except Exception,ex:
+            loginResut = json.dumps({"ErrorInfo": "参数错误", "ErrorId": 9999, "Result": {}})
+            return HttpResponse(loginResut)
+
+        vipHandle = None
+        if code:
+            vipHandle = ByVipTable.objects.filter(code = code).first()
+
+        if not vipHandle:
+            vipHandle = ByVipTable()
+            vipHandle.code = uuid.uuid1().__str__().replace("-", "")
+
+        vipHandle.name = title
+        vipHandle.city = city
+        vipHandle.score = score
+        vipHandle.classify = profession
+        vipHandle.wealth = deposity
+        vipHandle.notify = postmsgflag
+        vipHandle.sex = sex
+
+        try:
+            vipHandle.save()
+        except:
+            loginResut = json.dumps({"ErrorInfo": "数据存储错误", "ErrorId": 29999, "Result": {}})
+            return HttpResponse(loginResut)
+
+        loginResut = json.dumps({"ErrorInfo": "操作成功", "ErrorId": 200, "Result": vipHandle.code})
+        return HttpResponse(loginResut)
 
     @staticmethod
     def modiVipData(request):
@@ -89,4 +178,52 @@ class VipCustomApi(object):
 
     @staticmethod
     def deleteVipData(request):
-        pass
+        postDataList = {}
+        postDataList = getPostData(request)
+        code = None
+        try:
+            code = postDataList['code']
+        except Exception, ex:
+            loginResut = json.dumps({"ErrorInfo": "参数错误", "ErrorId": 9999, "Result": {}})
+            return HttpResponse(loginResut)
+
+        vipData = ByVipTable.objects.filter(code = code).first()
+
+        if vipData:
+            try:
+                vipData.delete()
+            except Exception,ex:
+                loginResut = json.dumps({"ErrorInfo": "数据删除失败", "ErrorId": 1999, "Result": {}})
+                return HttpResponse(loginResut)
+
+
+        loginResut = json.dumps({"ErrorInfo": "操作成功", "ErrorId": 200, "Result": None})
+        return HttpResponse(loginResut)
+
+    @staticmethod
+    def GetVipInfo(request):
+        try:
+            code = request.GET.get('code')
+        except Exception, e:
+            loginResut = json.dumps({"ErrorInfo": "参数错误", "ErrorId": 2999, "Result": {}})
+            return HttpResponse(loginResut)
+
+        vipHandle = ByVipTable.objects.filter(code = code).first()
+
+        if not vipHandle:
+            loginResut = json.dumps({"ErrorInfo": "未找到VIP数据", "ErrorId": 1999, "Result": {}})
+            return HttpResponse(loginResut)
+
+        oneData = {}
+        oneData["id"] = vipHandle.id
+        oneData["code"] = vipHandle.code
+        oneData["username"] = vipHandle.name
+        oneData['sex'] = vipHandle.sex
+        oneData['city'] = vipHandle.city
+        oneData['experience'] = vipHandle.score
+        oneData['classify'] = vipHandle.classify
+        oneData['wealth'] = vipHandle.wealth
+        oneData['notify'] = vipHandle.notify
+
+        lResut = json.dumps(oneData)
+        return HttpResponse(lResut)

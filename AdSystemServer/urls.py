@@ -28,5 +28,8 @@ urlpatterns = [
     # API接口
     url(r'^admin/', admin.site.urls),
     url(r'^$',VipCustomApi.openVipHome),
+    url(r'^VipChange.html',VipCustomApi.openVipDetail),
+    url(r'^upload/$',VipCustomApi.uploadFile),
+    # url(r'^uploadResFile/$', WebCenterApi.upload_res_file),
     url(r'^api/ctm/$',VipCustomApi.CommandDispatch),
 ] + static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)

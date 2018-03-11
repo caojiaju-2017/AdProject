@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改或新增VIP</title>
+    <meta name="viewport" content="user-scalable=no">
+
+    <script src="/static/Public/jquery.js"></script>
+    <script src="/static/ThreeParty/Boost/bootstrap.js"></script>
+    <script src="/static/Public/cookie.js"></script>
+    <script src="/static/ThreeParty/LayUi/layui.js"></script>
+    <script src="/static/VipHome/vipdetail.js"></script>
+
+    <link rel="stylesheet" href="/static/ThreeParty/Boost/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/ThreeParty/LayUi/css/layui.css" media="all">
+</head>
+<body style="text-align: center">
+
+
+{#    <div style="margin-top: 20px">#}
+{#        <img src="/static/VipHome/default.jpg" style="width: 100px;height: 100px;cursor: pointer" onclick="$.selectVipImage()">#}
+{#    </div>#}
+
+    <div class="layui-upload">
+  <button type="button" class="layui-btn" id="test1" style="width: 40px;height: 30px;padding: 0px;line-height: 30px">传</button>
+  <div class="layui-upload-list">
+    <img class="layui-upload-img" id="demo1" src="/static/VipHome/default.jpg" style="width: 60px;height:60px;">
+    <p id="demoText"></p>
+  </div>
+</div>
+
+
+<div class="layui-form-item" style="margin-top: 10px">
+    <label class="layui-form-label" style="width: 130px">用户姓名</label>
+    <div class="layui-input-block">
+      <input type="text" name="title" lay-verify="title" id="title" autocomplete="off" placeholder="请输入姓名" class="layui-input" style="width: 200px">
+    </div>
+  </div>
+
+  <div class="layui-form-item" style="margin-top: 10px" >
+    <label class="layui-form-label" style="width: 130px">单选框</label>
+    <div class="layui-input-block" style="margin-top: 30px;text-align: left" id="sex_wrap">
+      <span style="margin-left: 0px">男<input type="radio" name="sex" value="男" title="男" id="male"></span>
+      <span style="margin-left: 0px">女<input type="radio" name="sex" value="女" title="女" id="female" style="" checked></span>
+    </div>
+  </div>
+
+<div class="layui-form-item" style="margin-top: 10px">
+    <label class="layui-form-label" style="width: 130px">客户城市</label>
+    <div class="layui-input-block">
+      <input type="text" name="city" id="city" lay-verify="title" autocomplete="off" placeholder="请输入客户城市" class="layui-input" style="width: 200px">
+    </div>
+  </div>
+
+<div class="layui-form-item" style="margin-top: 10px">
+    <label class="layui-form-label" style="width: 130px">用户积分</label>
+    <div class="layui-input-block">
+      <input type="text" name="score" id="score" lay-verify="title" autocomplete="off" placeholder="请输入积分数量" class="layui-input" style="width: 200px">
+    </div>
+  </div>
+
+<div class="layui-form-item" style="margin-top: 10px">
+    <label class="layui-form-label" style="width: 130px">客户职业</label>
+    <div class="layui-input-block">
+      <input type="text" name="profession" id="profession" lay-verify="title" autocomplete="off" placeholder="请输入客户职业" class="layui-input" style="width: 200px">
+    </div>
+  </div>
+
+<div class="layui-form-item" style="margin-top: 10px">
+    <label class="layui-form-label" style="width: 130px">用户存款</label>
+    <div class="layui-input-block">
+      <input type="text" name="depsity" id="deposity" lay-verify="title" autocomplete="off" placeholder="请输入模拟存款" class="layui-input" style="width: 200px">
+    </div>
+  </div>
+  <div class="layui-form-item" style="margin-top: 10px">
+    <label class="layui-form-label"  style="width: 130px">消息推送</label>
+    <div class="layui-input-block" style="margin-left: 10px;margin-top: 20px;text-align: left">
+      <span>启用<input type="checkbox" checked="" id="msgpush" name="open" lay-skin="switch" lay-filter="switchTest" lay-text="ON|OFF"></span>
+    </div>
+  </div>
+
+
+<button class="layui-btn layui-btn-radius" style="width: 120px;margin-top: 20px" onclick="$.saveVipInfo()">保存</button>
+
+
+<script>
+    layui.use('upload', function(){
+      var $ = layui.jquery
+      ,upload = layui.upload;
+
+      var vipCode = $.getVipCode();
+
+
+      //普通图片上传
+      var uploadInst = upload.render({
+        elem: '#test1'
+        ,url: '/upload/?code=' + vipCode
+        ,before: function(obj)
+          {
+              {#if (vipCode == "" || vipCode == "null" || vipCode == null )#}
+              {#  {#}
+              {#      alert("请先创建账户，并保存。")#}
+              {#      return;#}
+              {#  }#}
+          //预读本地文件示例，不支持ie8
+          obj.preview(function(index, file, result){
+            $('#demo1').attr('src', result); //图片链接（base64）
+          });
+        }
+        ,done: function(res){
+          //如果上传失败
+          if(res.code > 0){
+            return layer.msg('上传失败');
+          }
+          //上传成功
+        }
+        ,error: function(){
+          //演示失败状态，并实现重传
+          var demoText = $('#demoText');
+          demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-mini demo-reload">重试</a>');
+          demoText.find('.demo-reload').on('click', function(){
+            uploadInst.upload();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

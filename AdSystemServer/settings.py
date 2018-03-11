@@ -66,14 +66,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'AdSystemServer.wsgi.application'
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'hsedu',
+#         'USER': 'root',
+#         'PASSWORD': 'caojj123',
+#         'HOST':'www.h-sen.com',
+#         'PORT': '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hsedu',
-        'USER': 'root',
-        'PASSWORD': 'caojj123',
-        'HOST':'www.h-sen.com',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'bysystem.dll',
     }
 }
 
